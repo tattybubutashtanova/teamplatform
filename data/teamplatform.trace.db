@@ -1,0 +1,3 @@
+2024-12-20 12:34:42.455691+06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM FILE USERS  [*]TASK"; SQL statement:
+SELECT * FROM FILE USERS  TASK [42000-232]

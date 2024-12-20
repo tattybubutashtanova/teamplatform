@@ -1,2 +1,9 @@
-package com.teamcollab.teamplatform.repository;public class FileRepository {
+package com.teamcollab.teamplatform.repository;
+
+import com.teamcollab.teamplatform.model.File;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface FileRepository extends JpaRepository<File, Long> {
 }
